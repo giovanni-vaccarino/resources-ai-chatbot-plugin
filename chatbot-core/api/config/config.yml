@@ -20,6 +20,7 @@ retrieval:
   top_k_docs: 6
   top_k_plugins: 5
   top_k_discourse: 5
+  top_k_stack: 5
   top_k_semantic: 20
   top_k_keyword: 20
   semantic_threshold: 1.5
@@ -31,6 +32,7 @@ tool_names:
   plugins: "plugins"
   jenkins_docs: "docs"
   community_threads: "discourse"
+  stack_threads: "stack"
 
 cors:
   allowed_origins:
